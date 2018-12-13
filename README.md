@@ -4,7 +4,7 @@ A simple wrapper for VirtualBox's VBoxManage cli. It allows you to control and l
 
 # Install
 
-`pip install vbox-cli`
+`pip install --user vbox-cli`
 
 # Usage
 
@@ -23,6 +23,8 @@ Mode can be
 - sdl
 - headless
 - separate
+
+The default mode is `headless`
 
 ## Stop a VM
 This command sends a ACPI power off
